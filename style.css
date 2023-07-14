@@ -81,3 +81,32 @@ footer {
 .bold {
     font-weight: 700;
 }
+
+
+/* Responsive Media query */
+
+/* For mobile */
+@media screen and (max-width: 576px) {
+    .title {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .img-container {
+        flex-direction: column;
+    }
+
+    .title > h2 {
+        font-size: 8vw;
+        margin-bottom: 0.5em;
+    }
+
+    .img-box {
+        width: 50%;
+    }
+
+    .margin-top-img {
+        margin-top: 0;
+    }
+    
+}
