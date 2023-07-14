@@ -10,11 +10,10 @@ img {
 }
 
 .img-box {
-    width: 25%;
-    display: grid;
+    width: 23%;
+    /* display: grid; */
     /* grid-template-columns: repeat(2,1fr); */
      display: flex;
-
      align-items: flex-start;
 }
 
@@ -25,13 +24,8 @@ img {
     gap: 8em;
 }
 
-.bottom-container {
-    /* margin-top: 8em; */
-}
-
 .margin-top-img {
     margin-top: 10em;
-    /* padding-top: 10em; */
 }
 
 .rotate-text {
@@ -41,5 +35,6 @@ img {
     /* width: 100%; */
     margin-left: 1em;
     writing-mode: vertical-lr;
+    text-transform: uppercase;
 }
 
