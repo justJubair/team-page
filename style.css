@@ -33,8 +33,6 @@
 /* The title related styles ends */
 
 
-
-
 /* The layout related styles */
 img {
     width: 100%;
@@ -70,3 +68,16 @@ img {
     font-weight: 400;
 }
 /* layout related styles ends */
+
+
+/* footer section related styles */
+footer {
+    margin-top: 5em;
+    text-align: center;
+    padding: 1em;
+    color: #A9A9A9;
+}
+
+.bold {
+    font-weight: 700;
+}
