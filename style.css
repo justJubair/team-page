@@ -5,6 +5,37 @@
     font-family: 'Poppins', sans-serif;;
 }
 
+/* The title related styles */
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em 0em 5em 5em;
+}
+
+.title > h2 {
+    font-size: 3em;
+    width: 100%;
+}
+
+.title  h3 {
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+
+
+.title-desc {
+    font-size: 1.5em;
+    width: 80%;
+}
+/* The title related styles ends */
+
+
+
+
+/* The layout related styles */
 img {
     width: 100%;
 }
@@ -29,12 +60,13 @@ img {
 }
 
 .rotate-text {
-    font-size: 12px;
+    font-size: 16px;
     /* transform: rotate(90deg); */
     /* margin-top: 1em; */
     /* width: 100%; */
     margin-left: 1em;
     writing-mode: vertical-lr;
     text-transform: uppercase;
+    font-weight: 400;
 }
-
+/* layout related styles ends */
