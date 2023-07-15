@@ -104,6 +104,10 @@ footer {
         margin-bottom: 0.5em;
     }
 
+    .title-desc {
+        margin-top: 0.5em;
+    }
+
     .img-box {
         width: auto;
     }
